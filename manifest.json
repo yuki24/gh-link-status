@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub link status",
+  "description": "This extension adds a status indicator to links to GitHub issues and pull reuqests",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_icon": "assets/icon.png"
+  },
+  "permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "src/inject.js"
+      ]
+    }
+  ]
+}
