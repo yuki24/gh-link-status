@@ -1,0 +1,10 @@
+{
+  "name": "gh-link-status",
+  "version": "0.1.0",
+  "description": "GitHub issue/pull request status inlined",
+  "main": "index.js",
+  "repository": "https://github.com/yuki24/gh-link-status",
+  "author": "Yuki Nishijima <yk.nishijima@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
